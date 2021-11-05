@@ -298,14 +298,15 @@ function sendMessage(message) {
       Force display?  <div id="force" class="slider"><div class="inx"><div class="in in1">Yes</div> <div class="in in2">No</div></div><div class="in mark"></div></div>
       <em>?
         <span class="info">
-        Some sites forbid loading using the default method.  Use this option to force them to load.  Doing so makes DashCast loose control of the chromecast
+        Some displays forbid loading using the default method.  Use this option to force them to load.  Doing so makes ChabadCast loose control of the chromecast
         </span>
       </em>
     </div>
     <div class="opt">
       Update Content <div id="reload" class="slider"><div class="inx"><div class="in in2">No</div> <div class="in in1">Yes</div></div><div class="in mark"></div></div>
-      every <input id="reload-time" type="number" min="1" value="50"> seconds
+      every <input id="reload-time" type="number" min="1" value="3600"> seconds
     </div>
+    <div id="note1">Note: update content should be set to "yes" unless you have a specific reason you do not want your display to automaticly update, the recomended time between updates is 3600 seconds (1 hour)</div>
 
     <div id="go-button" class="step go">Cast My Display</div>
 
