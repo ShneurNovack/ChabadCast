@@ -1,4 +1,4 @@
-dashcast
+ChabadCast
 ========
 
-Chromecast app for displaying dashboard pages
+Client for pushing Chabad Displays to Chromecast displays
