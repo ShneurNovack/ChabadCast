@@ -125,7 +125,7 @@
         }
 
         function loadFrame(url, reload_time) {
-          setStatus("Loading: " + url);
+          setStatus("Updating ChabadDisplay Content");
           window.reload_time = reload_time;
           candidate.src="error.html?dashcast_is_error_page_zz";
           candidate.setAttribute("target-src", url);
@@ -141,8 +141,8 @@
         cast.receiver.logger.setLevelValue(0);
         window.castReceiverManager = cast.receiver.CastReceiverManager.getInstance();
         castReceiverManager.onReady = function(event) {
-          window.castReceiverManager.setApplicationState("Application ready");
-          setStatus("Waiting for address")
+          window.castReceiverManager.setApplicationState("ChabadCast Ready");
+          setStatus("Waiting for Display Input")
         };
         
         // create a CastMessageBus to handle messages for a custom namespace
