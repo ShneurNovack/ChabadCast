@@ -7,7 +7,7 @@ nodecastor.scan()
     d.status(function(err, s) {
       if (!err) {
         console.log('Chromecast status', util.inspect(s));
-        d.application('5C3F0A3C', function(err, a) {
+        d.application('B93F416E', function(err, a) {
           if (!err) {
             console.log('Application', util.inspect(a));
             a.run('urn:x-cast:es.offd.dashcast', function(err, s) {
