@@ -1,4 +1,4 @@
-ChabadCast Beta 1.0
+ChabadCast
 ========
 
 Client to push Chabad display board to Chromecast displays based on DashCast
