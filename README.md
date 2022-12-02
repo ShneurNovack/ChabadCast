@@ -1,4 +1,4 @@
 ChabadCast
 ========
 
-Client to push Chabad display board to Chromecast displays based on DashCast
+modified version of dashcast to push Chabad display board to Chromecast displays
